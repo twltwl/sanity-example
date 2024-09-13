@@ -1,0 +1,16 @@
+{
+  "name": "data-sanity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "node fetchArticles.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sanity/client": "^6.21.3",
+    "dotenv": "^16.4.5"
+  },
+  "type": "module"
+}
